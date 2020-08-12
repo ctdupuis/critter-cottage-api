@@ -12,6 +12,8 @@ This repo contains the Rails API used by the [Critter Cottage React Client](http
 - Rails [6.0.2]
 - PostgreSQL (Database)
 - BCrypt
+- ActiveStorage
+- Google Cloud Services
 
 ## Local Installation
 
