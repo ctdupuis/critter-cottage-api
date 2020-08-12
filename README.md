@@ -1,24 +1,22 @@
-# README
+# Critter Cottage API - Production Build
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The original project build can be found [here](https://github.com/ctdupuis/critter-cottage)
 
-Things you may want to cover:
+### About
 
-* Ruby version
+This repo contains the Rails API used by the [Critter Cottage React Client](https://github.com/ctdupuis/critter-cottage-client).
 
-* System dependencies
+### Dependencies
 
-* Configuration
+- Ruby [2.6.1]
+- Rails [6.0.2]
+- PostgreSQL (Database)
+- BCrypt
 
-* Database creation
+## Local Installation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- In your terminal, run `git clone git@github.com:ctdupuis/critter-cottage-api.git`
+- Run `bundle install`
+- Run `rake db:setup` to initialize database
+- Run `rails server` to initialize local server
+- Navigate to [localhost:5000/animals](http://localhost:5000/animals) to see animal data in JSON format
